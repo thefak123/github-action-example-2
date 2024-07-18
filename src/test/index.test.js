@@ -5,7 +5,7 @@ describe("video streaming microservice", () => {
 
     test("microservice can handle requests", async () => {
 
-        const response = await request(app).get("/live"); // Makes a request to the "/live" route.
+        const response = await request(app).get("/liv"); // Makes a request to the "/live" route.
         expect(response.status).toBe(200); // Verify that a HTTP status code 200 is returned, indicating success.
     });
 });
